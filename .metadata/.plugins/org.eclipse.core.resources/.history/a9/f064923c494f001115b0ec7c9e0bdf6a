@@ -1,0 +1,15 @@
+package core;
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		// 1.Assignment -> =,+=,-=,*=,/=
+		int i = 1;
+		System.out.println("i = " + i);
+		i += 2; // i = i + 2
+		System.out.println("i = " + i);
+
+		int j = 12;
+		j += i;// j = j+i
+		System.out.println("j = "+j);
+	}
+}

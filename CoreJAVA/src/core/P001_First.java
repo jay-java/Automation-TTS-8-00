@@ -1,0 +1,17 @@
+package core;
+
+/*
+Three streams in java
+1.in ->for user input (inputStream)
+2.out -> printStream (to print data into console)
+3.err -> error stream
+*/
+public class P001_First {
+	// in java execution starts from main method
+	public static void main(String[] args) {
+		System.out.println("hello java");
+		System.out.print("hello again");
+		System.out.println("hello java developers");
+	}
+	
+}
