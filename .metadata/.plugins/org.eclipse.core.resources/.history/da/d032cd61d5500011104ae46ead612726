@@ -1,0 +1,10 @@
+package core;
+
+public class P005_ConditionalStatements {
+	public static void main(String[] args) {
+		// 1.if else
+		// 2.nested if
+		// 3.else if ladder
+		// 4.switch case
+	}
+}

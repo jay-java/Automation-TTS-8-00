@@ -1,0 +1,16 @@
+package core;
+
+public class P005_ConditionalStatements {
+	public static void main(String[] args) {
+		// 1.if else
+		int i = 10, j = 12;
+		if (i > j) {
+			System.out.println("i is greater than j");
+		} else {
+			System.out.println("j is greater than i");
+		}
+		// 2.nested if
+		// 3.else if ladder
+		// 4.switch case
+	}
+}

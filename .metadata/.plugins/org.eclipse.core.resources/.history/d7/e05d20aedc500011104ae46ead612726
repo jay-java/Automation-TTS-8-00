@@ -1,0 +1,45 @@
+package core;
+
+public class P006_Loops {
+	public static void main(String[] args) {
+		// ( < , ++), ( > , --)
+		// 1.for loop //entry control loop
+		// for(initialization;condition;incre/decre){body}
+		System.out.println("for loop increment");
+		for (int i = 11; i <= 10; i++) {
+			System.out.println(i);
+		}
+		System.out.println("for loop decrement");
+		for (int i = 10; i >= 1; i--) {
+			System.out.println(i);
+		}
+		// 2.while loop //entry control loop
+		// while(condition){body}
+		System.out.println("while loop increment");
+		int a = 1;
+		while (a <= 10) {
+			System.out.println(a);
+			a++;
+		}
+		System.out.println("while loop decrement");
+		int b = 10;
+		while (b >= 1) {
+			System.out.println(b);
+			b--;
+		}
+		// 3.do while loop -> exit control loop
+		System.out.println("do while loop increment");
+		int p = 11;
+		do {
+			System.out.println(p);
+			p++;
+		} while (p <= 10);
+		System.out.println("do while loop decrement");
+		int q = 10;
+		do {
+			System.out.println(q);
+			q--;
+		} while (q >= 1);
+		// 4.for each loop
+	}
+}

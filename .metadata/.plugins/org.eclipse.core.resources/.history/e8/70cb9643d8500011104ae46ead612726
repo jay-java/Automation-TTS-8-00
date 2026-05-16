@@ -1,0 +1,61 @@
+package core;
+
+public class P005_ConditionalStatements {
+	public static void main(String[] args) {
+		// 1.if else
+		int i = 13, j = 10;
+		if (i > j) {
+			System.out.println("i is greater than j");
+		} else {
+			System.out.println("j is greater than i");
+		}
+		// 2.nested if
+		int age = 46;
+		if (age > 18) {
+			if (age < 55) {
+				System.out.println("you are eligible");
+			} else {
+				System.out.println("age is greater than 18 but not less than 55");
+			}
+		} else {
+			System.out.println("age is less than 18");
+		}
+		// 3.else if ladder
+		int m = 76;
+		if (m < 35) {
+			System.out.println("fail");
+		}
+		else if(m >= 35 && m <=60) {
+			System.out.println("Pass class");
+		}
+		else if(m >= 61 && m <=70) {
+			System.out.println("C grade");
+		}
+		else if(m >= 71 && m <=80) {
+			System.out.println("B grade");
+		}
+		else if(m >= 81 && m <=90) {
+			System.out.println("A grade");
+		}
+		else if(m >= 91 && m <=100) {
+			System.out.println("A+ grade");
+		}
+		else {
+			System.out.println("invalid input");
+		}
+		
+		
+		// 4.switch case
+		int choice = 2;
+		switch(choice) {
+		case 1:
+			System.out.println("you selected english");
+		case 2:
+			System.out.println("you selected hindi");
+		case 3:
+			System.out.println("you selected gujarati");
+		default:
+			System.out.println("invalid input");
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package core;
+
+public class P004_Typecasting {
+	public static void main(String[] args) {
+		// 1.implicit -> small data to bigger size data
+		byte b = 12;// 1
+		System.out.println("b = " + b);
+		int i = b; // 4
+		System.out.println("i = " + i);
+
+		long l = i;// 8
+		System.out.println("l = " + l);
+
+		// 2.explicit -> bigger data to small data(by user)
+		long a = 12; //8
+		
+		int j = a;
+		
+	}
+}

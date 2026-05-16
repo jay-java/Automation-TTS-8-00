@@ -1,0 +1,11 @@
+package core;
+
+public class P004_Typecasting {
+	public static void main(String[] args) {
+		//1.implicit -> small data to bigger size data
+		byte b = 12;
+		
+		
+		//2.explicit -> bigger data to small data(by user)
+	}
+}

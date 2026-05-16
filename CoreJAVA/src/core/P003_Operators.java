@@ -47,7 +47,7 @@ public class P003_Operators {
 		p--; // p = p-1
 		System.out.println("p = " + p);
 
-		// 5.logical -> &&,||,!
+		
 
 		double base = 56.45;
 		double height = 23.54;
@@ -57,5 +57,8 @@ public class P003_Operators {
 		double radius = 57.43;
 		double areaOfCircle = Math.PI * radius * radius;
 		System.out.println("area of circle = " + areaOfCircle);
+		
+		
+		// 5.logical -> &&,||,!
 	}
 }
