@@ -1,0 +1,10 @@
+package core;
+
+public class P010_Array {
+	public static void main(String[] args) {
+		int a = 12, c = 324, d = 65, e = 56;
+		double b = 23.3456;
+		int arr[] = { 123, 23452, 54673, 6784, 8765 };
+		
+	}
+}

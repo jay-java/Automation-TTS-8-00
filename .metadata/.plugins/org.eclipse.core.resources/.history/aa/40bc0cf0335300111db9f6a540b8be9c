@@ -1,0 +1,36 @@
+package core;
+
+//public, private, protected, default
+class Abc {
+	// without return type without parameter
+	public void createAccount() {
+		System.out.println("create account");
+	}
+
+	// without return type with parameter
+	public void getNumber(int num) {
+		System.out.println("num = " + num);
+	}
+
+	// with return type without parameter
+	public int call() {
+		System.out.println("call fun");
+		return 457;
+	}
+
+	// with return type with parameter
+	public double fun() {
+
+	}
+}
+
+public class P008_Functions_Methods {
+	public static void main(String[] args) {
+		System.out.println("main method in functins class");
+		Abc a = new Abc();
+		a.createAccount();
+		a.getNumber(123);
+		int num = a.call();
+		System.out.println("number is coming from call method = " + num);
+	}
+}

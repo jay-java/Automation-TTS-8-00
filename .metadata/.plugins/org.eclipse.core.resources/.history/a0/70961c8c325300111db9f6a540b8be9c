@@ -1,0 +1,17 @@
+package core;
+
+//public, private, protected, default
+class Abc {
+	public void createAccount() {
+		System.out.println("create account");
+	}
+}
+
+public class P008_Functions_Methods {
+	public static void main(String[] args) {
+		System.out.println("main method in functins class");
+		Abc a = new Abc();
+		a.createAccount();
+		
+	}
+}

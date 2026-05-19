@@ -39,6 +39,16 @@ public class P007_Patterns {
 			}
 			System.out.println();
 		}
+		System.out.println();
+		for (int i = 1; i <= 5; i++) { // row
+			for (int s = 2; s <= i; s++) {
+				System.out.print(" ");
+			}
+			for (int j = 5; j >= i; j--) { // col
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
 
 	}
 }

@@ -1,0 +1,26 @@
+package core;
+
+//public, private, protected, default
+class Abc {
+	// without return type without parameter
+	public void createAccount() {
+		System.out.println("create account");
+	}
+
+	// without return type with parameter
+	public void getNumber(int num) {
+		System.out.println("num = " + num);
+	}
+	// with return type without parameter
+	// with return type with parameter
+}
+
+public class P008_Functions_Methods {
+	public static void main(String[] args) {
+		System.out.println("main method in functins class");
+		Abc a = new Abc();
+		a.createAccount();
+		
+
+	}
+}

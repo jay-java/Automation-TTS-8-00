@@ -1,0 +1,40 @@
+package core;
+
+import java.util.Scanner;
+
+public class P010_Array {
+	public static void main(String[] args) {
+		int a = 12, c = 324, d = 65, e = 56;
+		System.out.println(a);
+		double b = 23.3456;
+		int arr[] = { 123, 23452, 54673, 6784, 8765, 457, 56778, 98764 };
+		System.out.println(arr.length);
+		for (int index = 0; index < arr.length; index++) {
+			System.out.println(arr[index]);
+		}
+		System.out.println("sum of array elements");
+		int sum = 0;
+		for (int index = 0; index < arr.length; index++) {
+			sum = sum + arr[index];
+		}
+		System.out.println("sum = " + sum);
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter size of array : ");
+		int size = sc.nextInt();
+
+		int a1[] = new int[size];
+		for (int index = 0; index < size; index++) {
+			System.out.print("enter element at ar[" + index + "] : ");
+			a1[index] = sc.nextInt();
+		}
+		System.out.println("enter number to search in array : ");
+		int num = sc.nextInt();
+
+		for (int index = 0; index < a1.length; index++) {
+			if (num == a1[index]) {
+				
+			}
+		}
+	}
+}

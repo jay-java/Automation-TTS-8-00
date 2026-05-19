@@ -1,0 +1,19 @@
+package core;
+
+import java.util.Scanner;
+
+public class P009_UserInput {
+	public static void main(String[] args) {
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter i = ");
+		i = sc.nextInt();
+		System.out.println("enter j = ");
+		int j = sc.nextInt();
+		System.out.println(i + j);
+
+		System.out.println("enter double value = ");
+		double d = sc.nextDouble();
+		System.out.println(d);
+	}
+}
