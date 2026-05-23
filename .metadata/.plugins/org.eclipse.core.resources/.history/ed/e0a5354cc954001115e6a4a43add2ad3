@@ -1,0 +1,16 @@
+package core;
+
+class User {
+	// 1.default
+	// 2.parameterized
+	public void call() {
+		System.out.println("call method");
+	}
+}
+
+//3.copy
+public class P012_Constructor {
+	public static void main(String[] args) {
+
+	}
+}

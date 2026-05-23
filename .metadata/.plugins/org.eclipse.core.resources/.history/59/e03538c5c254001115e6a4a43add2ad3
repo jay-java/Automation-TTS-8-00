@@ -1,0 +1,16 @@
+package core;
+
+public class P011_String {
+	public static void main(String[] args) {
+		// String is sequence of characters
+		char c[] = { 'j', 'a', 'v', 'a' };
+		System.out.println(c);
+		String s = "java tehcnology is best learn";
+		System.out.println(s);
+		System.out.println(s.length());
+		System.out.println(s.charAt(0));
+		System.out.println(s.startsWith("java "));
+		System.out.println(s.endsWith("learn"));
+		System.out.println(s.contains("java"));
+	}
+}

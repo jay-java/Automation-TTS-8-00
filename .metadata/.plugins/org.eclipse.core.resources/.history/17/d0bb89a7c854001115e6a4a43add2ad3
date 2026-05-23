@@ -1,0 +1,16 @@
+package core;
+
+class User {
+	public void createNewAccount() {
+
+	}
+}
+
+//1.default
+//2.parameterized
+//3.copy
+public class P012_Constructor {
+	public static void main(String[] args) {
+
+	}
+}
