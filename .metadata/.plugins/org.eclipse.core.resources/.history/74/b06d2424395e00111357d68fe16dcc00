@@ -1,0 +1,14 @@
+package core;
+
+class Users {
+	int id;
+	String name;
+	String address;
+	long contact;
+}
+
+public class P017_Encapsulation {
+	public static void main(String[] args) {
+
+	}
+}

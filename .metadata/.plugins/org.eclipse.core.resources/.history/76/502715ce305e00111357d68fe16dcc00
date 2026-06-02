@@ -1,0 +1,69 @@
+package core;
+
+//OOPS
+
+//1.class
+//2.object
+//3.inheritance
+//4.polymorphism
+//5.abstraction
+//6.encapsulation
+
+//1.single
+class A {
+	
+
+	A(int i) {
+		System.out.println("class A int cons");
+	}
+
+	public void classAMethod() {
+		System.out.println("class A method");
+	}
+}
+
+class B extends A {
+	B() {
+		System.out.println("class B cons");
+	}
+
+	B(int i) {
+		System.out.println("class B int cons");
+	}
+
+	public void classBMethod() {
+		System.out.println("class B method");
+	}
+}
+
+//multilevel
+class C extends B {
+	C() {
+		System.out.println("class C cons");
+	}
+
+	C(int i) {
+		System.out.println("class C int cons");
+	}
+
+	public void classCMethod() {
+		System.out.println("class C method");
+	}
+}
+
+public class P014_OOPS {
+	public static void main(String[] args) {
+		B b = new B();
+		b.classAMethod();
+		b.classBMethod();
+
+		B b1 = new B(12);
+		b1.classAMethod();
+		b1.classBMethod();
+
+		C c = new C();
+		c.classAMethod();
+		c.classBMethod();
+		c.classCMethod();
+	}
+}

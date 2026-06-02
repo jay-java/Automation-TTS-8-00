@@ -1,0 +1,59 @@
+package core;
+
+abstract class RBI {
+	abstract public void HL(); // method declaration
+
+	abstract public void FD();
+
+	public void repoRate() {
+		System.out.println("repo rate +-4%");
+	}
+
+	public static void call() {
+		System.out.println("static call in RBI class");
+	}
+
+}
+
+class SBI extends RBI {
+
+	@Override
+	public void HL() {
+		// TODO Auto-generated method stub
+		System.out.println("SBI HL : 7%");
+	}
+
+	@Override
+	public void FD() {
+		// TODO Auto-generated method stub
+		System.out.println("SBI FD : 5%");
+	}
+
+}
+
+class JAVA extends RBI {
+
+	@Override
+	public void HL() {
+		// TODO Auto-generated method stub
+		System.out.println("JAVA HL : 8%");
+	}
+
+	@Override
+	public void FD() {
+		// TODO Auto-generated method stub
+		System.out.println("JAVA FD 6%");
+	}
+
+}
+
+public class P016_Abstraction {
+	public static void main(String[] args) {
+		SBI s = new SBI();
+		s.HL();
+		s.FD();
+		JAVA j = new JAVA();
+		j.HL();
+		j.FD();
+	}
+}

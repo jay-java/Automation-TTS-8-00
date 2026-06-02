@@ -5,4 +5,11 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="core.User"/>
+    <fullyQualifiedTypeName name="core.Box"/>
+    <fullyQualifiedTypeName name="core.Student"/>
+    <fullyQualifiedTypeName name="core.B"/>
+    <fullyQualifiedTypeName name="core.Overload"/>
+    <fullyQualifiedTypeName name="core.SBI"/>
+    <fullyQualifiedTypeName name="core.Users"/>
 </qualifiedTypeNameHistroy>

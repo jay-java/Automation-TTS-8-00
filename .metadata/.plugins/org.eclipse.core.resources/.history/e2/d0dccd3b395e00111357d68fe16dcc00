@@ -1,0 +1,26 @@
+package core;
+
+class Users {
+	int id;
+	String name;
+	String address;
+	long contact;
+
+	Users() {
+
+	}
+
+	Users(int id, String name, String address, long contact) {
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+	}
+
+}
+
+public class P017_Encapsulation {
+	public static void main(String[] args) {
+
+	}
+}
