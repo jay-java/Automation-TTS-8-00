@@ -53,10 +53,12 @@ public class P016_Abstraction {
 		s.HL();
 		s.FD();
 		s.repoRate();
+		s.call();
 		JAVA j = new JAVA();
 		j.HL();
 		j.FD();
 		j.repoRate();
+		j.call();
 		RBI.call();
 		SBI.call();
 		JAVA.call();

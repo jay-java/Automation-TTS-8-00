@@ -1,0 +1,7 @@
+package core;
+
+public class P021_FileHandling {
+	public static void main(String[] args) {
+		
+	}
+}

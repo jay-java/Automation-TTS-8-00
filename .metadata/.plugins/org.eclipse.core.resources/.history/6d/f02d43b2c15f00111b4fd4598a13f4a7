@@ -1,0 +1,14 @@
+package core;
+
+class Data{
+	int i=1;
+	public void chagne() {
+		i++;
+		System.out.println(i);
+	}
+}
+public class P018_Final {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,16 @@
+package core;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+//FileOutputStream - to write data into file
+//FileInputStream - to read data from file
+//FileWriter - to write data into file
+//FileReader - to read data from file
+public class P021_FileHandling {
+	public static void main(String[] args) throws FileNotFoundException {
+		String msg = "java is best for selenium";
+		FileOutputStream fos = new FileOutputStream("t1.txt");
+		
+	}
+}

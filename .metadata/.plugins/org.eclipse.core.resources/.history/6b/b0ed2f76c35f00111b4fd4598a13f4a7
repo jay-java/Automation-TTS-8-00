@@ -1,0 +1,22 @@
+package core;
+
+interface interface1 {
+	public void interface1Method();
+
+}
+
+interface interface2 extends interface1 {
+	public void interface2Method();
+
+}
+
+interface interface3 {
+	public void interface3Method();
+
+}
+
+public class P019_Interface {
+	public static void main(String[] args) {
+
+	}
+}

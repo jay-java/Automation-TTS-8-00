@@ -1,0 +1,59 @@
+package core;
+
+interface interface1 {
+	public void interface1Method();
+
+	public static void interface1Static() {
+		System.out.println("interface 1 static method");
+	}
+}
+
+interface interface2 extends interface1 {
+	public void interface2Method();
+
+	public static void interface2Static() {
+		System.out.println("interface 2 static method");
+	}
+}
+
+interface interface3 {
+	public void interface3Method();
+
+	public static void interface3Static() {
+		System.out.println("interface 3 static method");
+	}
+}
+
+class InterCall implements interface2, interface3 {
+
+	@Override
+	public void interface1Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 1");
+	}
+
+	@Override
+	public void interface3Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 3");
+	}
+
+	@Override
+	public void interface2Method() {
+		// TODO Auto-generated method stub
+		System.out.println("interface 2");
+	}
+
+}
+
+public class P019_Interface {
+	public static void main(String[] args) {
+		InterCall i = new InterCall();
+		i.interface1Method();
+		i.interface2Method();
+		i.interface3Method();
+		interface1.interface1Static();
+		interface2.interface2Static();
+		interface3.interface3Static();
+	}
+}
