@@ -1,0 +1,67 @@
+package core;
+
+import java.time.Duration;
+
+//min - 1
+//norm - 5
+//max -10
+class MyThread extends Thread {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Thread class");
+	}
+}
+
+class MyThread1 implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Runnable interface");
+	}
+
+}
+
+class ByRunnable implements Runnable {
+
+	private String threadName;
+
+	ByRunnable(String threadName) {
+		this.threadName = threadName;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+public class P022_Thread {
+	public static void main(String[] args) {
+//		MyThread t1 = new MyThread();
+//		t1.start();
+//
+//		MyThread1 t2 = new MyThread1();
+//		t2.run();
+//
+//		System.out.println(Thread.currentThread());
+//		Thread t = new Thread();
+//		t.setName("MyThread");
+//		System.out.println(t);
+//		long startTime = System.currentTimeMillis();
+//		for (int i = 1; i <= 5; i++) {
+//			System.out.println(t + " : " + i);
+//			try {
+////				Thread.sleep(2000);
+//				Thread.sleep(Duration.ofSeconds(2));
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+//		}
+//		long endTime = System.currentTimeMillis();
+//		System.out.println("time take to process : " + (endTime - startTime));
+	}
+}

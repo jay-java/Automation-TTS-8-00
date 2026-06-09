@@ -1,0 +1,20 @@
+package core;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class P0256_Map {
+	public static void main(String[] args) {
+		Map map = new HashMap();
+		map.put(1, "c");// entry
+		map.put(2, "c++");
+		map.put('a', "java");
+		map.put(45.45, false);
+		map.put(12, 'a');
+		map.put("python", 34);
+		map.put(1, 'a');
+		System.out.println(map);
+		
+	}
+}
