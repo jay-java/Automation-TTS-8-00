@@ -1,9 +1,0 @@
-package core;
-
-//poly -> many
-//morphism -> forms
-public class P015_Polymorphism {
-	public static void main(String[] args) {
-		
-	}
-}
