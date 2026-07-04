@@ -16,7 +16,7 @@ public class P008_Button {
 		WebElement btn2 = driver.findElement(By.xpath("//div[@class='container']/div/div[2]/button[2]"));
 //		btn2.
 		WebElement btn3 = driver.findElement(By.xpath("//div[@class='container']/div/div[2]/button[3]"));
-//		btn1.click();
+//		btn1.aiclick();
 
 	}
 }
